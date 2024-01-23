@@ -18,7 +18,7 @@ createApp({
                 document.cookie = `vuetoken=${token}; expires=${new Date(expired)};`;
             }),
                 setTimeout(() => {
-                    window.location.href = 'https://austin0929.github.io/vue-second-week/product.html';
+                    window.location.href = 'https://austin0929.github.io/test/product.html';
                 }, 2000);
         }
     },
